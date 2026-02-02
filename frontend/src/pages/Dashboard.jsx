@@ -75,7 +75,7 @@ export default function Dashboard() {
           <div className="space-y-8">
             {/* Stats Cards */}
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-              <Card className="border-border transition-colors hover:border-primary/30">
+              <Card className="border-border transition-colors hover:border-primary/30 rounded-2xl">
                 <CardContent className="p-6">
                   <div className="mb-4 flex items-center justify-between">
                     <p className="text-sm text-muted-foreground">
@@ -93,7 +93,7 @@ export default function Dashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-colors hover:border-primary/30">
+              <Card className="border-border transition-colors hover:border-primary/30 rounded-2xl">
                 <CardContent className="p-6">
                   <div className="mb-4 flex items-center justify-between">
                     <p className="text-sm text-muted-foreground">
@@ -110,7 +110,7 @@ export default function Dashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-colors hover:border-primary/30">
+              <Card className="border-border transition-colors hover:border-primary/30 rounded-2xl">
                 <CardContent className="p-6">
                   <div className="mb-4 flex items-center justify-between">
                     <p className="text-sm text-muted-foreground">
@@ -126,7 +126,7 @@ export default function Dashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="border-border transition-colors hover:border-primary/30">
+              <Card className="border-border transition-colors hover:border-primary/30 rounded-2xl">
                 <CardContent className="p-6">
                   <div className="mb-4 flex items-center justify-between">
                     <p className="text-sm text-muted-foreground">AI Credits</p>

@@ -96,7 +96,7 @@ export default function CodePlayground() {
             </CardContent>
           </Card>
 
-          <Card className="border-border">
+          <Card className="border-border rounded-2xl">
             <CardContent className="p-6">
               <button
                 className="mb-3 flex w-full items-center justify-between text-left font-semibold"

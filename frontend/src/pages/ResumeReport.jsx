@@ -382,7 +382,7 @@ export default function ResumeReport() {
       {/* Sticky Footer */}
       <div className="sticky bottom-6 z-10 px-4">
         <div className="container mx-auto">
-          <Card className="border-white/10 bg-background/90 shadow-xl backdrop-blur-xl ring-1 ring-white/5">
+          <Card className="border-white/10 bg-background/90 shadow-xl backdrop-blur-xl ring-1 ring-white/5 rounded-2xl">
             <CardContent className="flex items-center justify-between p-4">
               <div className="flex items-center gap-4">
                 <div className="relative h-12 w-12">

@@ -257,7 +257,7 @@ export default function ResumeRoaster() {
           {mockResumeReports.map((report) => (
             <Card
               key={report.id}
-              className="border-border bg-card transition-colors hover:bg-card/80"
+              className="border-border bg-card transition-colors hover:bg-card/80 rounded-2xl"
             >
               <CardContent className="p-4">
                 <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">

@@ -141,7 +141,7 @@ export default function NoteReader() {
                   ul: ({ node, ...props }) => (
                     <ul className="mb-4 ml-6 list-disc space-y-2" {...props} />
                   ),
-                  code: ({ node, inline, ...props }: any) =>
+                  code: ({ node, inline, ...props }) =>
                     inline ? (
                       <code
                         className="rounded bg-card px-1.5 py-0.5 font-mono text-sm text-primary"

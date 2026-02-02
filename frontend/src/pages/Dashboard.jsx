@@ -161,7 +161,7 @@ export default function Dashboard() {
                       className="relative flex min-w-[150px] flex-col items-center"
                     >
                       <div
-                        className={`mb-3 flex h-16 w-16 items-center justify-center rounded-lg border-2 ${
+                        className={`mb-3 flex h-16 w-16 items-center justify-center rounded-2xl border-2 ${
                           item.status === 'completed'
                             ? 'border-primary bg-primary/10'
                             : item.status === 'in-progress'

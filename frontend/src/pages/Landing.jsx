@@ -193,7 +193,7 @@ export default function Landing() {
             {mockPricingPlans.map((plan) => (
               <Card
                 key={plan.id}
-                className="relative overflow-hidden border-border bg-card shadow-lg"
+                className="relative overflow-hidden border-border bg-card shadow-lg rounded-2xl"
               >
                 {plan.badge && (
                   <div className="absolute right-4 top-4">

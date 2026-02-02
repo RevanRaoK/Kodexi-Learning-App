@@ -282,7 +282,7 @@ export default function Dashboard() {
             </Card>
 
             {/* Resume Health */}
-            <Card className="relative overflow-hidden border-border">
+            <Card className="relative overflow-hidden border-border rounded-2xl">
               <div className="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-l from-primary/5 to-transparent"></div>
               <CardHeader>
                 <CardTitle data-testid="resume-health-title">

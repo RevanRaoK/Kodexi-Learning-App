@@ -37,7 +37,7 @@ export default function NoteReader() {
             <Link
               key={item.id}
               to={`#${item.slug}`}
-              className={`flex items-start gap-2 rounded-lg p-2 text-sm transition-colors ${
+              className={`flex items-start gap-2 rounded-2xl p-2 text-sm transition-colors ${
                 item.status === 'current'
                   ? 'bg-primary/10 text-primary font-medium'
                   : item.status === 'completed'

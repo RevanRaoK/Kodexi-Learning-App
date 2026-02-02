@@ -205,7 +205,7 @@ export default function TrackOverview() {
               {course.chapters.map((chapter) => (
                 <div
                   key={chapter.id}
-                  className={`flex items-center justify-between rounded-lg border p-4 transition-colors ${
+                  className={`flex items-center justify-between rounded-2xl border p-4 transition-colors ${
                     chapter.status === 'current'
                       ? 'border-primary bg-primary/5 border-l-4'
                       : 'border-border bg-card hover:bg-card/80'

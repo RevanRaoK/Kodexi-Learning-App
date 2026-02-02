@@ -73,7 +73,7 @@ export default function SignupLogin({ mode = 'signup' }) {
       </div>
 
       {/* Right Side - Form */}
-      <div className="flex w-full flex-col items-center justify-center overflow-y-auto bg-card p-6 sm:p-12 lg:w-[40%] lg:p-16">
+      <div className="flex w-full flex-col items-center justify-center overflow-y-auto bg-card p-6 sm:p-12 lg:w-[40%] lg:p-16 rounded-2xl">
         <div className="w-full max-w-md space-y-8">
           <Tabs
             value={activeTab}

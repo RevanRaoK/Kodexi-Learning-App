@@ -191,7 +191,7 @@ export default function ResumeReport() {
           {/* Left Column - Critical Issues & Next Steps */}
           <div className="space-y-8 lg:col-span-2">
             {/* Critical Issues */}
-            <Card className="overflow-hidden border-l-4 border-l-red-500 border-border bg-card shadow-lg">
+            <Card className="overflow-hidden border-l-4 border-l-red-500 border-border bg-card shadow-lg rounded-2xl">
               <div className="border-b border-border bg-gradient-to-r from-red-500/10 to-transparent p-6">
                 <h2 className="flex items-center gap-2 text-2xl font-bold" data-testid="critical-issues-title">
                   <AlertCircle className="h-6 w-6 text-red-500" />

@@ -20,7 +20,7 @@ import { mockChallengeData } from '@/data/mockData';
 export default function CodePlayground() {
   const { trackSlug, challengeSlug } = useParams();
   const challenge =
-    mockChallengeData[challengeSlug as keyof typeof mockChallengeData];
+    mockChallengeData[challengeSlug];
   const [code, setCode] = useState(challenge?.initialCode || '');
 
   if (!challenge) {

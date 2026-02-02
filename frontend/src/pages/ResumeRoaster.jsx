@@ -16,11 +16,11 @@ import {
 import { mockResumeReports } from '@/data/mockData';
 
 export default function ResumeRoaster() {
-  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [selectedFile, setSelectedFile] = useState(null);
   const [industry, setIndustry] = useState('');
   const navigate = useNavigate();
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e) => {
     if (e.target.files && e.target.files[0]) {
       setSelectedFile(e.target.files[0]);
     }

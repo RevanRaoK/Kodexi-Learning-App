@@ -75,7 +75,7 @@ export default function CodePlayground() {
             </div>
           </div>
 
-          <Card className="mb-6 border-border">
+          <Card className="mb-6 border-border rounded-2xl">
             <CardContent className="p-6">
               <h2 className="mb-3 flex items-center gap-2 font-semibold">
                 📝 {challenge.description}

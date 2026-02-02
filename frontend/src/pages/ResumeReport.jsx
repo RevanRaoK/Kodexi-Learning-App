@@ -286,7 +286,7 @@ export default function ResumeReport() {
             </Card>
 
             {/* Next Steps */}
-            <Card className="overflow-hidden border-l-4 border-l-blue-500 border-border bg-card shadow-lg">
+            <Card className="overflow-hidden border-l-4 border-l-blue-500 border-border bg-card shadow-lg rounded-2xl">
               <div className="border-b border-border bg-gradient-to-r from-blue-500/10 to-transparent p-6">
                 <h2 className="flex items-center gap-2 text-2xl font-bold">
                   <FileText className="h-6 w-6 text-blue-500" />

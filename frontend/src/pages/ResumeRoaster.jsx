@@ -141,7 +141,7 @@ export default function ResumeRoaster() {
                 <div className="space-y-4">
                   <label
                     htmlFor="maang"
-                    className="flex cursor-pointer items-start gap-4 rounded-lg border-2 border-border p-4 transition-colors hover:border-primary/50 has-[:checked]:border-primary has-[:checked]:bg-primary/5"
+                    className="flex cursor-pointer items-start gap-4 rounded-2xl border-2 border-border p-4 transition-colors hover:border-primary/50 has-[:checked]:border-primary has-[:checked]:bg-primary/5"
                   >
                     <RadioGroupItem value="maang" id="maang" className="mt-1" />
                     <div className="flex-1">
@@ -158,7 +158,7 @@ export default function ResumeRoaster() {
 
                   <label
                     htmlFor="startup"
-                    className="flex cursor-pointer items-start gap-4 rounded-lg border-2 border-border p-4 transition-colors hover:border-primary/50 has-[:checked]:border-primary has-[:checked]:bg-primary/5"
+                    className="flex cursor-pointer items-start gap-4 rounded-2xl border-2 border-border p-4 transition-colors hover:border-primary/50 has-[:checked]:border-primary has-[:checked]:bg-primary/5"
                   >
                     <RadioGroupItem
                       value="startup"
@@ -181,7 +181,7 @@ export default function ResumeRoaster() {
 
                   <label
                     htmlFor="corporate"
-                    className="flex cursor-pointer items-start gap-4 rounded-lg border-2 border-border p-4 transition-colors hover:border-primary/50 has-[:checked]:border-primary has-[:checked]:bg-primary/5"
+                    className="flex cursor-pointer items-start gap-4 rounded-2xl border-2 border-border p-4 transition-colors hover:border-primary/50 has-[:checked]:border-primary has-[:checked]:bg-primary/5"
                   >
                     <RadioGroupItem
                       value="corporate"

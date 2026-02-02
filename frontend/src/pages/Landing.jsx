@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import {
   Check,
   Clock,
-  MapOff,
+  MapPinOff,
   Skull,
   Target,
   BookOpen,

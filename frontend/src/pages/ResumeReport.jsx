@@ -265,7 +265,7 @@ export default function ResumeReport() {
             </Card>
 
             {/* What's Working */}
-            <Card className="overflow-hidden border-l-4 border-l-green-500 border-border bg-card shadow-lg">
+            <Card className="overflow-hidden border-l-4 border-l-green-500 border-border bg-card shadow-lg rounded-2xl">
               <div className="border-b border-border bg-gradient-to-r from-green-500/10 to-transparent p-6">
                 <h2 className="flex items-center gap-2 text-2xl font-bold">
                   <ThumbsUp className="h-6 w-6 text-green-500" />

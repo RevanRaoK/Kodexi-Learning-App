@@ -162,7 +162,7 @@ export default function Landing() {
           <div className="grid gap-8 md:grid-cols-3">
             {[
               { icon: Clock, title: 'Video Marathons', desc: '50-hour courses with 90% filler content. You can read the same in 5 hours.' },
-              { icon: MapOff, title: 'No Roadmap', desc: 'Random tutorials with no structure. Lost after 10 videos.' },
+              { icon: MapPinOff, title: 'No Roadmap', desc: 'Random tutorials with no structure. Lost after 10 videos.' },
               { icon: Skull, title: 'Outdated Content', desc: '2020 tutorials teaching you deprecated tech. The job market moved on.' },
             ].map((item, i) => (
               <Card key={i} className="group border-border bg-card transition-colors hover:border-primary/50">

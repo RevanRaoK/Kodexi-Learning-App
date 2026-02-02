@@ -162,8 +162,11 @@ export default function NoteReader() {
                           size="sm"
                           className="mt-2"
                           data-testid="try-in-playground"
+                          asChild
                         >
-                          🚀 Try in Code Playground →
+                          <Link to={`/tracks/${trackSlug}/challenges/redis-caching`}>
+                            🚀 Try in Code Playground →
+                          </Link>
                         </Button>
                       </div>
                     ),

@@ -111,7 +111,7 @@ const Hero = () => (
 
       <div className="relative">
         <div className="absolute -inset-4 rounded-xl bg-primary/20 blur-2xl"></div>
-        <Card className="relative aspect-[4/3] overflow-hidden border-border bg-card shadow-2xl">
+        <Card className="relative aspect-[4/3] overflow-hidden border-border bg-card shadow-2xl rounded-2xl">
           <CardContent className="flex h-full flex-col p-6">
             <div className="mb-4 flex gap-2">
               <div className="h-3 w-3 rounded-full bg-red-500"></div>

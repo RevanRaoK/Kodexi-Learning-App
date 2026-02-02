@@ -18,7 +18,7 @@ import { mockCourseContent } from '@/data/mockData';
 
 export default function TrackOverview() {
   const { trackSlug } = useParams();
-  const course = mockCourseContent[trackSlug as keyof typeof mockCourseContent];
+  const course = mockCourseContent[trackSlug];
 
   if (!course) {
     return <div>Track not found</div>;

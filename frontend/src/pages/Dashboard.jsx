@@ -194,8 +194,10 @@ export default function Dashboard() {
                         </Badge>
                       )}
 
-                      {index < mockRoadmap.length - 1 && (
-                        <div className="absolute left-[calc(50%+32px)] top-8 h-0.5 w-8 bg-border"></div>
+                      {/* Connecting line */}
+                      {index < mockRoadmap.length - 1 && 
+                       (item.status !== 'locked' || mockRoadmap[index + 1].status !== 'locked') && (
+                        <div className="absolute left-[calc(50%+40px)] top-8 h-0.5 w-[calc(100%-8px)] bg-border"></div>
                       )}
                     </div>
                   ))}

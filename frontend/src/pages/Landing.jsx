@@ -165,7 +165,7 @@ export default function Landing() {
               { icon: MapPinOff, title: 'No Roadmap', desc: 'Random tutorials with no structure. Lost after 10 videos.' },
               { icon: Skull, title: 'Outdated Content', desc: '2020 tutorials teaching you deprecated tech. The job market moved on.' },
             ].map((item, i) => (
-              <Card key={i} className="group border-border bg-card transition-colors hover:border-primary/50">
+              <Card key={i} className="group border-border bg-card transition-colors hover:border-primary/50 rounded-2xl">
                 <CardContent className="p-8">
                   <item.icon className="mb-4 h-12 w-12 text-primary" />
                   <h3 className="mb-2 text-xl font-semibold">{item.title}</h3>

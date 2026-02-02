@@ -315,7 +315,7 @@ export default function ResumeReport() {
 
           {/* Right Column - Quick Stats */}
           <div className="space-y-6">
-            <Card className="border-border sticky top-6">
+            <Card className="border-border sticky top-6 rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="mb-6 font-semibold">Quick Stats</h3>
 

@@ -92,7 +92,7 @@ export default function ResumeRoaster() {
       <section className="container mx-auto max-w-3xl px-4 pb-16">
         <div className="space-y-8">
           {/* Step 1: Upload Resume */}
-          <Card className="border-border bg-card shadow-xl">
+          <Card className="border-border bg-card shadow-xl rounded-2xl">
             <CardContent className="p-6 md:p-8">
               <h2 className="mb-4 text-xl font-bold" data-testid="upload-step-title">
                 1. Upload Resume
@@ -131,7 +131,7 @@ export default function ResumeRoaster() {
           </Card>
 
           {/* Step 2: Select Industry */}
-          <Card className="border-border bg-card shadow-xl">
+          <Card className="border-border bg-card shadow-xl rounded-2xl">
             <CardContent className="p-6 md:p-8">
               <h2 className="mb-6 text-xl font-bold" data-testid="industry-step-title">
                 2. Select Target Industry
@@ -207,7 +207,7 @@ export default function ResumeRoaster() {
           </Card>
 
           {/* Step 3: Start Roasting */}
-          <Card className="border-border bg-card shadow-xl">
+          <Card className="border-border bg-card shadow-xl rounded-2xl">
             <CardContent className="p-6 md:p-8">
               <h2 className="mb-4 text-xl font-bold">3. Start Roasting</h2>
 

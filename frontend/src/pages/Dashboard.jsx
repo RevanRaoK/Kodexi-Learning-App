@@ -142,7 +142,7 @@ export default function Dashboard() {
             </div>
 
             {/* Learning Roadmap */}
-            <Card className="border-border">
+            <Card className="border-border rounded-2xl">
               <CardHeader className="flex flex-row items-center justify-between">
                 <CardTitle data-testid="roadmap-title">
                   Learning Roadmap
@@ -212,7 +212,7 @@ export default function Dashboard() {
             </Card>
 
             {/* Active Tracks Table */}
-            <Card className="border-border">
+            <Card className="border-border rounded-2xl">
               <CardHeader>
                 <CardTitle data-testid="active-tracks-title">
                   📚 Your Tracks

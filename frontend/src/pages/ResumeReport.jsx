@@ -152,7 +152,7 @@ export default function ResumeReport() {
 
         {/* Action Summary */}
         <div className="mb-12 grid gap-6 md:grid-cols-3">
-          <Card className="border-border">
+          <Card className="border-border rounded-2xl">
             <CardContent className="p-6 text-center">
               <AlertCircle className="mx-auto mb-2 h-8 w-8 text-red-500" />
               <p className="mb-1 text-sm text-muted-foreground">
@@ -164,7 +164,7 @@ export default function ResumeReport() {
             </CardContent>
           </Card>
 
-          <Card className="border-border">
+          <Card className="border-border rounded-2xl">
             <CardContent className="p-6 text-center">
               <Lightbulb className="mx-auto mb-2 h-8 w-8 text-yellow-500" />
               <p className="mb-1 text-sm text-muted-foreground">Improvements</p>
@@ -174,7 +174,7 @@ export default function ResumeReport() {
             </CardContent>
           </Card>
 
-          <Card className="border-border">
+          <Card className="border-border rounded-2xl">
             <CardContent className="p-6 text-center">
               <ThumbsUp className="mx-auto mb-2 h-8 w-8 text-green-500" />
               <p className="mb-1 text-sm text-muted-foreground">

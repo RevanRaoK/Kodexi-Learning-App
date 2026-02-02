@@ -199,7 +199,7 @@ export default function CodePlayground() {
                   {challenge.tests.map((test) => (
                     <Card
                       key={test.id}
-                      className={`border ${
+                      className={`border rounded-2xl ${
                         test.status === 'passed'
                           ? 'border-green-500/20 bg-green-500/5'
                           : 'border-red-500/20 bg-red-500/5'

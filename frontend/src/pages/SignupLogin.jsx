@@ -13,16 +13,12 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Check, Eye, EyeOff } from 'lucide-react';
 
-interface SignupLoginProps {
-  mode?: 'signup' | 'login';
-}
-
-export default function SignupLogin({ mode = 'signup' }: SignupLoginProps) {
+export default function SignupLogin({ mode = 'signup' }) {
   const [showPassword, setShowPassword] = useState(false);
   const [activeTab, setActiveTab] = useState(mode);
   const navigate = useNavigate();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     // Mock login/signup - redirect to dashboard
     navigate('/dashboard');

@@ -18,7 +18,7 @@ import { mockChapterContent } from '@/data/mockData';
 export default function NoteReader() {
   const { trackSlug, chapterSlug } = useParams();
   const chapter =
-    mockChapterContent[chapterSlug as keyof typeof mockChapterContent];
+    mockChapterContent[chapterSlug];
 
   if (!chapter) {
     return <div>Chapter not found</div>;

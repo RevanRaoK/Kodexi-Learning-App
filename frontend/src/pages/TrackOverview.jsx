@@ -122,7 +122,7 @@ export default function TrackOverview() {
       <section className="border-b border-border bg-card/50 py-8">
         <div className="container mx-auto px-4">
           <div className="grid gap-6 md:grid-cols-3">
-            <Card className="border-border">
+            <Card className="border-border rounded-2xl">
               <CardContent className="p-6">
                 <p className="mb-2 text-sm text-muted-foreground">Time Spent</p>
                 <p className="mb-1 text-3xl font-bold">{course.timeSpent}</p>
@@ -132,7 +132,7 @@ export default function TrackOverview() {
               </CardContent>
             </Card>
 
-            <Card className="border-border">
+            <Card className="border-border rounded-2xl">
               <CardContent className="p-6">
                 <p className="mb-2 text-sm text-muted-foreground">
                   Modules Completed
@@ -177,7 +177,7 @@ export default function TrackOverview() {
               </CardContent>
             </Card>
 
-            <Card className="border-border">
+            <Card className="border-border rounded-2xl">
               <CardContent className="p-6">
                 <p className="mb-2 text-sm text-muted-foreground">
                   Est. Remaining
@@ -276,7 +276,7 @@ export default function TrackOverview() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            <Card className="border-border">
+            <Card className="border-border rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="mb-4 font-semibold">What You'll Learn</h3>
                 <ul className="space-y-3">
@@ -290,7 +290,7 @@ export default function TrackOverview() {
               </CardContent>
             </Card>
 
-            <Card className="border-border">
+            <Card className="border-border rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="mb-4 font-semibold">Your Instructors</h3>
                 <div className="space-y-4">

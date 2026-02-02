@@ -242,7 +242,7 @@ export default function ResumeReport() {
             </Card>
 
             {/* Improvements */}
-            <Card className="overflow-hidden border-l-4 border-l-yellow-500 border-border bg-card shadow-lg">
+            <Card className="overflow-hidden border-l-4 border-l-yellow-500 border-border bg-card shadow-lg rounded-2xl">
               <div className="border-b border-border bg-gradient-to-r from-yellow-500/10 to-transparent p-6">
                 <h2 className="flex items-center gap-2 text-2xl font-bold">
                   <Lightbulb className="h-6 w-6 text-yellow-500" />
